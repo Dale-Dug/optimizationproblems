@@ -31,7 +31,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [7b](https://teorth.github.io/optimizationproblems/constants/7b.html) | Irrationality measure of $\Gamma(1/4)$ | 2 | $10^{143}$ |
 | [8](https://teorth.github.io/optimizationproblems/constants/8a.html) | Classical zero-free region constant | 0.755106 | 4.896 |
 | [9](https://teorth.github.io/optimizationproblems/constants/9a.html) | Shannon capacity of the 7-cycle | 3.25883262 | 3.3177 |
-| [10a](https://teorth.github.io/optimizationproblems/constants/10a.html) | The real Grothendieck constant | $\frac{6\pi}{11}\approx 1.71360$ | $\frac{\pi}{2\log(1+\sqrt{2})} - 10^{-4} \approx 1.78211$ |
+| [10a](https://teorth.github.io/optimizationproblems/constants/10a.html) | The real Grothendieck constant | $\frac{6\pi}{11}\approx 1.71360$ | $\frac{\pi}{2\log(1+\sqrt{2})} - 10^{-4} \approx 1.78211$ (1.7813*) |
 | [10b](https://teorth.github.io/optimizationproblems/constants/10b.html) | The complex Grothendieck constant | 1.338 | 1.40491 |
 | [10c](https://teorth.github.io/optimizationproblems/constants/10c.html) | Spencer discrepancy constant (“six standard deviations suffice”) | 1.767767 | 4.1 (3.65*) |
 | [11a](https://teorth.github.io/optimizationproblems/constants/11a.html) | $L^1$ Poincaré constant on the Hamming cube | $\sqrt{\pi/2} \approx 1.2533$ | $\pi/2 - 0.00013 \approx 1.5707$ |
@@ -178,6 +178,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [10c](https://teorth.github.io/optimizationproblems/constants/10c.html) **upper bound correction:** $C_{10c}\le 4.1$ by [Pesenti–Vladu](https://arxiv.org/abs/2211.05509) v2 (14 Apr 2026), replacing the withdrawn $3\sqrt{3/2}$ constant in Theorem 4.5.
 
 - [7a](https://teorth.github.io/optimizationproblems/constants/7a.html) **improved upper bound:** $C\_{7a}<7.101862832357$ by [Y. Bai](https://arxiv.org/abs/2609.11276v2), 10 Sep 2026 (v2: 11 Sep); Theorem 1.1 with $A\_1=A\_2=1857/2785$.
+- [10a](https://teorth.github.io/optimizationproblems/constants/10a.html) **improved upper bound (unverified):** $C\_{10a}\le 1.7813^\*$ by [B. Peng](https://arxiv.org/abs/2609.20074v1), 17 Sep 2026; computer-assisted interval certificate, not independently replayed here.
 - [13a](https://teorth.github.io/optimizationproblems/constants/13a.html) **improved lower bound (unverified):** $C\_{13a}\ge 0.239^\*$ by [E. Keller](https://arxiv.org/abs/2609.21968v1), 18 Sep 2026. The reflection-permitting theorem also gives a lower bound under this page's restricted rigid motions; its upper bound is not transferred here.
 
 ## Maintainers
