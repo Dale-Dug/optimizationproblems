@@ -23,7 +23,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [3d](https://teorth.github.io/optimizationproblems/constants/3d.html) | Single-set sum-difference exponent | 2 | 2 |
 | [3e](https://teorth.github.io/optimizationproblems/constants/3e.html) | Unnormalized single-set sum-difference exponent | 1.27155 | 1.33333 |
 | [4a](https://teorth.github.io/optimizationproblems/constants/4a.html) | Cap set constant | 2.2203 | 2.756 |
-| [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) | Furstenberg–Sárközy square-difference constant | 0.758068 | 1 |
+| [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) | Furstenberg–Sárközy square-difference constant | 0.7580758 | $<1$ |
 | [5a](https://teorth.github.io/optimizationproblems/constants/5a.html) | Sidon set size constant | 0 | 0.97633 |
 | [5b](https://teorth.github.io/optimizationproblems/constants/5b.html) | Sidon set density inside (4,5) sets | 0.5294 | 0.5714 |
 | [6](https://teorth.github.io/optimizationproblems/constants/6a.html) | Union-closed sets conjecture constant | 0.38271 | 0.5 |
@@ -186,6 +186,8 @@ Bounds for which the level of available verification is currently at minimal lev
 - [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.16*$ by Mosaic Intelligence, [certificate bundle](https://github.com/463464q435q43/optimizationproblems/tree/6baae4c15dccec1e94ac011de399ec382fcea7b6/certificates/certified0160), 2 Oct 2026.
 - [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.1595*$ by Mosaic Intelligence, [certificate bundle](https://github.com/463464q435q43/optimizationproblems/tree/cc8107854fedd5a96d7eb695178f405568712f35/certificates/certified01595), 3 Oct 2026.
 - [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) **improved upper bound (unverified):** $C\_{3a} \leq (13524e-7359)/(9451e-3286) = 1.312373302115\dots$* by [L. J. Kleinwaks](https://github.com/kleinwaks/sum-difference), 28 Sep 2026; proof paper and Lean 4 formalization of a universal two-set inequality and its multiscale transfer. First recorded improvement since 2007.
+- [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved upper bound:** $C\_{4b} \leq 1 - c$ for an absolute constant $c > 0$ by [OpenAI](https://github.com/openai/math/tree/main/preprints/A-power-saving-for-square-difference-free-sets-September-24-2026), 6 Oct 2026 — the first improvement on the trivial bound $C\_{4b} \leq 1$.
+- [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C\_{4b} \geq 0.7580758$ (exact $473797394875551/625000000000000$) by [E. Naslund](https://hexagonmath.org/2610.00151v1), 7 Oct 2026, with a Lean 4 formalization registered as version 2 of Palomar entry [PALOMAR-2026-09-19-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-19-000006&version=2) (standard axioms only).
 
 ## Maintainers
 
