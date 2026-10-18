@@ -17,7 +17,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [1a](https://teorth.github.io/optimizationproblems/constants/1a.html) | Sidon set autocorrelation constant | 1.2802 (1.292*) | 1.502862 |
 | [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) | Erdős minimum overlap constant | 0.379005 | 0.380868 |
 | [2](https://teorth.github.io/optimizationproblems/constants/2a.html) | Crouzeix constant | 2 | 2 |
-| [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) | Gyarmati-Hennecart-Ruzsa sum-difference constant | 1.19102809 (1.19519192*) | 1.33333 |
+| [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) | Gyarmati-Hennecart-Ruzsa sum-difference constant | 1.19102809 (1.19519192*) | 1.33333 (1.31237330*) |
 | [3b](https://teorth.github.io/optimizationproblems/constants/3b.html) | Kakeya sums-differences constant | 1.77898884 | 1.83333 |
 | [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) | 4-slope Kakeya-type sum-difference constant | 1.6747338950414058 (1.674894211307116*) | 1.75 |
 | [3d](https://teorth.github.io/optimizationproblems/constants/3d.html) | Single-set sum-difference exponent | 2 | 2 |
@@ -185,6 +185,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) **improved lower bound (unverified):** $C\_{3c} \geq 1.674894211307116\*$ by M. Jaswal, [entropy certificate](https://doi.org/10.5281/zenodo.23289305) from two digit laws, 10 Oct 2026.
 - [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.16*$ by Mosaic Intelligence, [certificate bundle](https://github.com/463464q435q43/optimizationproblems/tree/6baae4c15dccec1e94ac011de399ec382fcea7b6/certificates/certified0160), 2 Oct 2026.
 - [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.1595*$ by Mosaic Intelligence, [certificate bundle](https://github.com/463464q435q43/optimizationproblems/tree/cc8107854fedd5a96d7eb695178f405568712f35/certificates/certified01595), 3 Oct 2026.
+- [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) **improved upper bound (unverified):** $C\_{3a} \leq (13524e-7359)/(9451e-3286) = 1.312373302115\dots$* by [L. J. Kleinwaks](https://github.com/kleinwaks/sum-difference), 28 Sep 2026; proof paper and Lean 4 formalization of a universal two-set inequality and its multiscale transfer. First recorded improvement since 2007.
 
 ## Maintainers
 
