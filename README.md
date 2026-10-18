@@ -17,6 +17,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [1a](https://teorth.github.io/optimizationproblems/constants/1a.html) | Sidon set autocorrelation constant | 1.2802 (1.292*) | 1.502862 |
 | [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) | Erdős minimum overlap constant | 0.379005 | 0.380868 |
 | [1c](https://teorth.github.io/optimizationproblems/constants/1c.html) | Barnard–Steinerberger autocorrelation constant | 0.4103287* | 0.4107675 |
+| [1d](https://teorth.github.io/optimizationproblems/constants/1d.html) | Signed third autocorrelation constant | 1 | 1.463071582607559* |
 | [2](https://teorth.github.io/optimizationproblems/constants/2a.html) | Crouzeix constant | 2 | 2 |
 | [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) | Gyarmati-Hennecart-Ruzsa sum-difference constant | 1.19102809 (1.19519192*) | 1.33333 (1.31237330*) |
 | [3b](https://teorth.github.io/optimizationproblems/constants/3b.html) | Kakeya sums-differences constant | 1.77898884 | 1.83333 |
@@ -195,6 +196,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved upper bound:** $C\_{4b} \leq 1 - c$ for an absolute constant $c > 0$ by [OpenAI](https://github.com/openai/math/tree/main/preprints/A-power-saving-for-square-difference-free-sets-September-24-2026), 6 Oct 2026 — the first improvement on the trivial bound $C\_{4b} \leq 1$.
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C\_{4b} \geq 0.7580758$ (exact $473797394875551/625000000000000$) by [E. Naslund](https://hexagonmath.org/2610.00151v1), 7 Oct 2026, with a Lean 4 formalization registered as version 2 of Palomar entry [PALOMAR-2026-09-19-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-19-000006&version=2) (standard axioms only).
 - [1c](https://teorth.github.io/optimizationproblems/constants/1c.html) **new constant; improved lower bound (unverified):** $C\_{1c} \geq 0.4103287*$ by [rozetyp](https://github.com/rozetyp/barnard-steinerberger-lower-bound), 2 Oct 2026 (previously $0.37$ by Barnard–Steinerberger).
+- [1d](https://teorth.github.io/optimizationproblems/constants/1d.html) **new constant, improved upper bound (unverified):** $C_{1d} \leq 1.463071582607559*$ (previously $1.4688$), certificate and verifier in the pull request description, 12 Oct 2026.
 
 ## Maintainers
 
