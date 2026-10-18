@@ -122,7 +122,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [79](https://teorth.github.io/optimizationproblems/constants/79a.html) | Asymptotic essential-dimension ratio of the symmetric groups | $\frac{1}{2}$ | 1 |
 | [80](https://teorth.github.io/optimizationproblems/constants/80a.html) | Ising perceptron capacity threshold | >0 (0.833*) | 0.847 (0.833*) |
 | [81](https://teorth.github.io/optimizationproblems/constants/81a.html) | Brun's constant | 1.840503 | 2.288513 |
-| [82](https://teorth.github.io/optimizationproblems/constants/82a.html) | Essential minimum of the Zhang-Zagier height | 0.24874 | 0.2536331090204145 |
+| [82](https://teorth.github.io/optimizationproblems/constants/82a.html) | Essential minimum of the Zhang-Zagier height | 0.24874 | 0.2536331090204145 (0.2534449*) |
 | [83](https://teorth.github.io/optimizationproblems/constants/83a.html) | Wirsing Constant | 0.30366300 | 0.30366300 |
 | [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) | Erdős unit distance exponent | 1.014 (1.04317*) | $\frac{4}{3}-\varepsilon$ |
 | [84b](https://teorth.github.io/optimizationproblems/constants/84b.html) | Sum-product exponent for the reals | $\frac{4}{3}+\frac{10}{4407}\approx 1.3356$ | $<2$ (1.999281*) |
@@ -200,6 +200,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [12](https://teorth.github.io/optimizationproblems/constants/12a.html) **improved upper bound:** $C_{12} \leq 0.8810$ by [Z. Dong and J. Cao](https://arxiv.org/abs/2610.02809), 2 Oct 2026.
 - [12](https://teorth.github.io/optimizationproblems/constants/12a.html) **improved upper bound (unverified):** $C_{12} \leq 0.8618*$ by [D. O'Keefe](https://github.com/devinokeefe/travelling-sales-person-constant-bounds), 11 Oct 2026.
 - [86](https://teorth.github.io/optimizationproblems/constants/86a.html) **improved upper bound (unverified):** $C_{86} \leq 1.8117251*$ by [R. Pinho](https://github.com/rpinho/c86-trace-certificate), 15 Oct 2026: the measure construction of Talebizadeh Sardari–Orloski with eleven auxiliary polynomials instead of four, certified in exact rational and arb ball arithmetic.
+- [82](https://teorth.github.io/optimizationproblems/constants/82a.html) **improved upper bound (unverified):** $C_{82} < 0.2534449*$ by [R. Pinho](https://github.com/rpinho/c82-height-certificate), 16 Oct 2026, building on the September 2026 Épi construction (0.2535744749): Doche's limit-point method with $P\_7$ and 25 lattice-found numerator factors, certified by two independently written Arb checkers.
 
 ## Maintainers
 
