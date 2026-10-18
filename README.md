@@ -127,7 +127,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) | Erdős unit distance exponent | 1.014 (1.04317*) | $\frac{4}{3}-\varepsilon$ |
 | [84b](https://teorth.github.io/optimizationproblems/constants/84b.html) | Sum-product exponent for the reals | $\frac{4}{3}+\frac{10}{4407}\approx 1.3356$ | $<2$ (1.999281*) |
 | [85](https://teorth.github.io/optimizationproblems/constants/85a.html) | Exponent for commutators close to the identity | 1 | 4 |
-| [86](https://teorth.github.io/optimizationproblems/constants/86a.html) | Schur–Siegel–Smyth trace constant | 1.80203 | 1.8216 |
+| [86](https://teorth.github.io/optimizationproblems/constants/86a.html) | Schur–Siegel–Smyth trace constant | 1.80203 | 1.8216 (1.8117251*) |
 | [87](https://teorth.github.io/optimizationproblems/constants/87a.html) | Martinet's constant for totally real number fields | 60.8395 | 857.567 |
 | [88a](https://teorth.github.io/optimizationproblems/constants/88a.html) | Bounded prime gap constant | 2 | 186 |
 | [88b](https://teorth.github.io/optimizationproblems/constants/88b.html) | Exponent for bounded gaps between many primes | 0 | 3.8075 |
@@ -199,6 +199,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [1d](https://teorth.github.io/optimizationproblems/constants/1d.html) **new constant, improved upper bound (unverified):** $C_{1d} \leq 1.463071582607559*$ (previously $1.4688$), certificate and verifier in the pull request description, 12 Oct 2026.
 - [12](https://teorth.github.io/optimizationproblems/constants/12a.html) **improved upper bound:** $C_{12} \leq 0.8810$ by [Z. Dong and J. Cao](https://arxiv.org/abs/2610.02809), 2 Oct 2026.
 - [12](https://teorth.github.io/optimizationproblems/constants/12a.html) **improved upper bound (unverified):** $C_{12} \leq 0.8618*$ by [D. O'Keefe](https://github.com/devinokeefe/travelling-sales-person-constant-bounds), 11 Oct 2026.
+- [86](https://teorth.github.io/optimizationproblems/constants/86a.html) **improved upper bound (unverified):** $C_{86} \leq 1.8117251*$ by [R. Pinho](https://github.com/rpinho/c86-trace-certificate), 15 Oct 2026: the measure construction of Talebizadeh Sardari–Orloski with eleven auxiliary polynomials instead of four, certified in exact rational and arb ball arithmetic.
 
 ## Maintainers
 
