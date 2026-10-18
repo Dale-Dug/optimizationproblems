@@ -40,6 +40,8 @@ Bounds for which the level of available verification is currently at minimal lev
 | [11b](https://teorth.github.io/optimizationproblems/constants/11b.html) | Critical exponent for isoperimetric inequality on the Hamming cube | 0.5 | 0.5 |
 | [12](https://teorth.github.io/optimizationproblems/constants/12a.html) | The Beardwood–Halton–Hammersley constant | 0.6277 | 0.90304 |
 | [13a](https://teorth.github.io/optimizationproblems/constants/13a.html) | Moser's convex worm cover constant | 0.232239 (0.239*) | 0.2617993878 |
+| [12](https://teorth.github.io/optimizationproblems/constants/12a.html) | The Beardwood–Halton–Hammersley constant | 0.6277 | 0.8810 (0.8618*) |
+| [13a](https://teorth.github.io/optimizationproblems/constants/13a.html) | Moser's convex worm cover constant | 0.232239 | 0.2617993878 |
 | [13b](https://teorth.github.io/optimizationproblems/constants/13b.html) | Lebesgue's convex universal cover constant | 0.832 | 0.8440935944 |
 | [14](https://teorth.github.io/optimizationproblems/constants/14a.html) | Smallest $n$ for which the value of $BB(n)$ is undecidable | 6 | 432 |
 | [15a](https://teorth.github.io/optimizationproblems/constants/15a.html) | Matrix multiplication exponent | 2 | 2.371177 |
@@ -197,6 +199,8 @@ Bounds for which the level of available verification is currently at minimal lev
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C\_{4b} \geq 0.7580758$ (exact $473797394875551/625000000000000$) by [E. Naslund](https://hexagonmath.org/2610.00151v1), 7 Oct 2026, with a Lean 4 formalization registered as version 2 of Palomar entry [PALOMAR-2026-09-19-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-19-000006&version=2) (standard axioms only).
 - [1c](https://teorth.github.io/optimizationproblems/constants/1c.html) **new constant; improved lower bound (unverified):** $C\_{1c} \geq 0.4103287*$ by [rozetyp](https://github.com/rozetyp/barnard-steinerberger-lower-bound), 2 Oct 2026 (previously $0.37$ by Barnard–Steinerberger).
 - [1d](https://teorth.github.io/optimizationproblems/constants/1d.html) **new constant, improved upper bound (unverified):** $C_{1d} \leq 1.463071582607559*$ (previously $1.4688$), certificate and verifier in the pull request description, 12 Oct 2026.
+- [12](https://teorth.github.io/optimizationproblems/constants/12a.html) **improved upper bound:** $C_{12} \leq 0.8810$ by [Z. Dong and J. Cao](https://arxiv.org/abs/2610.02809), 2 Oct 2026.
+- [12](https://teorth.github.io/optimizationproblems/constants/12a.html) **improved upper bound (unverified):** $C_{12} \leq 0.8618*$ by [D. O'Keefe](https://github.com/devinokeefe/travelling-sales-person-constant-bounds), 11 Oct 2026.
 
 ## Maintainers
 
