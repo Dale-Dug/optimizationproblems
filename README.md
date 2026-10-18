@@ -132,9 +132,7 @@ Bounds for which the level of available verification is currently at minimal lev
 
 
 ## Recent progress
-  * [21](https://teorth.github.io/optimizationproblems/constants/21a.html) improved upper bound (unverified): $C_{21} < 0.172422*$ by Daniel Martin Kornaus, 5 Sep 2026; paper, theorem certificate, and full replay bundle: https://zenodo.org/records/22337308
 
-- [10c](https://teorth.github.io/optimizationproblems/constants/10c.html) **improved lower bound:** $C_{10c} \geq 5/\sqrt{8} \approx 1.767767$ by Y. H., submitted to this repository, 5 Sep 2026.
 - [51](https://teorth.github.io/optimizationproblems/constants/51a.html) **improved lower bound:** $C_{51} \geq 0.5850724$ by [Y. He and Q. Tang](https://arxiv.org/abs/2602.12217), 12 Feb 2026.
 - [11b](https://teorth.github.io/optimizationproblems/constants/11b.html) **solved:** $C_{11b} = 0.5$ by  [P. Durcik, P. Ivanisvili, J. Roos, X. Xie](https://arxiv.org/abs/2602.20462), 24 Feb 2026.
 - [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) **improved lower bound:** $C_{3c} \geq 1.67471$ by T. Astor (paper coming soon).
@@ -170,6 +168,8 @@ Bounds for which the level of available verification is currently at minimal lev
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C_{4b} \geq 0.753742$ by [JD Jones](https://github.com/JD-Jones-ASES/fs-lower-bound), 23 Aug 2026, with a Lean 4 formalization registered as Palomar entry [PALOMAR-2026-08-26-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-08-26-000004&version=1) (standard axioms only).
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C_{4b} \geq 0.758067$ (exact $37903373/50000000$) by [E. Naslund](https://github.com/enaslund/sarkozy-lower-bound-0.758), 19 Sep 2026, with a Lean 4 formalization registered as Palomar entry [PALOMAR-2026-09-19-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-19-000006&version=1) (standard axioms only).
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C_{4b} \geq 0.75806770413$ (exact $75806770413/10^{11}$) by [JD Jones](https://github.com/JD-Jones-ASES/nk-lean), 21 Sep 2026: Naslund's construction under his criterion with one composite code's words, the widths and all nine moment powers reallocated; Lean 4 formalization registered as Palomar entry [PALOMAR-2026-09-21-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-21-000004&version=1) (standard axioms only).
+- [10c](https://teorth.github.io/optimizationproblems/constants/10c.html) **improved lower bound:** $C_{10c} \geq 5/\sqrt{8} \approx 1.767767$ by Y. H., submitted to this repository, 5 Sep 2026.
+- [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.172422*$ by [D. M. Kornaus](https://zenodo.org/records/22658444), 5 Sep 2026.
 - [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) **improved lower bound:** $C_{3c} \geq 1.6747338950414058$ by Y. Lin, [entropy certificate](https://gist.github.com/CoolRmal/5368357cd781d7e5c676c9d68ad24d22) on a 147-point support, 9 Sep 2026.
 - [19](https://teorth.github.io/optimizationproblems/constants/19a.html) **improved upper bound (unverified):** $C_{19} \leq 0.4395*$ by [H. Xiao and C. Li](https://github.com/haonan-xiao/iid-berry-esseen), 10 Sep 2026.
 - [19](https://teorth.github.io/optimizationproblems/constants/19a.html) **improved upper bound (unverified):** $C_{19} \leq 0.423*$ by [Y. Lin](https://github.com/CoolRmal/BerryEsseen), 13 Sep 2026.
