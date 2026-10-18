@@ -49,7 +49,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [20a](https://teorth.github.io/optimizationproblems/constants/20a.html) | Thin shell conjecture constant | 2 | $< \infty$ |
 | [20b](https://teorth.github.io/optimizationproblems/constants/20b.html) | Isotropic constant of a log-concave probability measure | $1/e$ | $< \infty$ |
 | [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) | KLS constant for log-concave probability measures | $\sqrt{\pi/2} \approx 1.25331$ | $\infty$ |
-| [21](https://teorth.github.io/optimizationproblems/constants/21a.html) | de Bruijn–Newman constant | 0 | 0.2 (0.172422*) |
+| [21](https://teorth.github.io/optimizationproblems/constants/21a.html) | de Bruijn–Newman constant | 0 | 0.2 (0.1595*) |
 | [22a](https://teorth.github.io/optimizationproblems/constants/22a.html) | Tight knot constant | 1.105 | 10.76 (10.02*) |
 | [22b](https://teorth.github.io/optimizationproblems/constants/22b.html) | Tight alternating knot constant | 0.017 | 7.31 |
 | [23a](https://teorth.github.io/optimizationproblems/constants/23a.html) | Smallest unsolved instance of the Hadamard conjecture | 668 | $\infty$ |
@@ -183,6 +183,8 @@ Bounds for which the level of available verification is currently at minimal lev
 - [10a](https://teorth.github.io/optimizationproblems/constants/10a.html) **improved upper bound (unverified):** $C\_{10a}\le 1.7813^\*$ by [B. Peng](https://arxiv.org/abs/2609.20074v1), 17 Sep 2026; computer-assisted interval certificate, not independently replayed here.
 - [13a](https://teorth.github.io/optimizationproblems/constants/13a.html) **improved lower bound (unverified):** $C\_{13a}\ge 0.239^\*$ by [E. Keller](https://arxiv.org/abs/2609.21968v1), 18 Sep 2026. The reflection-permitting theorem also gives a lower bound under this page's restricted rigid motions; its upper bound is not transferred here.
 - [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) **improved lower bound (unverified):** $C\_{3c} \geq 1.674894211307116\*$ by M. Jaswal, [entropy certificate](https://doi.org/10.5281/zenodo.23289305) from two digit laws, 10 Oct 2026.
+- [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.16*$ by Mosaic Intelligence, [certificate bundle](https://github.com/463464q435q43/optimizationproblems/tree/6baae4c15dccec1e94ac011de399ec382fcea7b6/certificates/certified0160), 2 Oct 2026.
+- [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.1595*$ by Mosaic Intelligence, [certificate bundle](https://github.com/463464q435q43/optimizationproblems/tree/cc8107854fedd5a96d7eb695178f405568712f35/certificates/certified01595), 3 Oct 2026.
 
 ## Maintainers
 
