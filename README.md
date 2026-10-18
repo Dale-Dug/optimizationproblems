@@ -19,7 +19,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [2](https://teorth.github.io/optimizationproblems/constants/2a.html) | Crouzeix constant | 2 | 2 |
 | [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) | Gyarmati-Hennecart-Ruzsa sum-difference constant | 1.19102809 (1.19519192*) | 1.33333 |
 | [3b](https://teorth.github.io/optimizationproblems/constants/3b.html) | Kakeya sums-differences constant | 1.77898884 | 1.83333 |
-| [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) | 4-slope Kakeya-type sum-difference constant | 1.6747338950414058 (1.674894211307116*) | 1.75 |
+| [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) | 4-slope Kakeya-type sum-difference constant | 1.674894211307116 | 1.75 |
 | [3d](https://teorth.github.io/optimizationproblems/constants/3d.html) | Single-set sum-difference exponent | 2 | 2 |
 | [3e](https://teorth.github.io/optimizationproblems/constants/3e.html) | Unnormalized single-set sum-difference exponent | 1.27155 | 1.33333 |
 | [4a](https://teorth.github.io/optimizationproblems/constants/4a.html) | Cap set constant | 2.2203 | 2.756 |
@@ -182,7 +182,8 @@ Bounds for which the level of available verification is currently at minimal lev
 - [7a](https://teorth.github.io/optimizationproblems/constants/7a.html) **improved upper bound:** $C\_{7a}<7.101862832357$ by [Y. Bai](https://arxiv.org/abs/2609.11276v2), 10 Sep 2026 (v2: 11 Sep); Theorem 1.1 with $A\_1=A\_2=1857/2785$.
 - [10a](https://teorth.github.io/optimizationproblems/constants/10a.html) **improved upper bound (unverified):** $C\_{10a}\le 1.7813^\*$ by [B. Peng](https://arxiv.org/abs/2609.20074v1), 17 Sep 2026; computer-assisted interval certificate, not independently replayed here.
 - [13a](https://teorth.github.io/optimizationproblems/constants/13a.html) **improved lower bound (unverified):** $C\_{13a}\ge 0.239^\*$ by [E. Keller](https://arxiv.org/abs/2609.21968v1), 18 Sep 2026. The reflection-permitting theorem also gives a lower bound under this page's restricted rigid motions; its upper bound is not transferred here.
-- [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) **improved lower bound (unverified):** $C\_{3c} \geq 1.674894211307116\*$ by M. Jaswal, [entropy certificate](https://doi.org/10.5281/zenodo.23289305) from two digit laws, 10 Oct 2026.
+- [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) **improved lower bound:** $C\_{3c} \geq 1.674894211307116$ by M. Jaswal, [entropy certificate](https://doi.org/10.5281/zenodo.23289305) from two digit laws, 10 Oct 2026.
+- [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) **independently replayed:** the two-law certificate behind $C\_{3c} \geq 1.674894211307116$ re-derived in exact rational and interval arithmetic, with no code shared with the claimant, by [C. Toledo](https://carlostoledo.co/reports/optconst-queue.html), 17 Oct 2026; asterisk removed.
 - [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.16*$ by Mosaic Intelligence, [certificate bundle](https://github.com/463464q435q43/optimizationproblems/tree/6baae4c15dccec1e94ac011de399ec382fcea7b6/certificates/certified0160), 2 Oct 2026.
 - [21](https://teorth.github.io/optimizationproblems/constants/21a.html) **improved upper bound (unverified):** $C_{21} < 0.1595*$ by Mosaic Intelligence, [certificate bundle](https://github.com/463464q435q43/optimizationproblems/tree/cc8107854fedd5a96d7eb695178f405568712f35/certificates/certified01595), 3 Oct 2026.
 
