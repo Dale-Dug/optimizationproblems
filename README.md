@@ -18,6 +18,8 @@ Bounds for which the level of available verification is currently at minimal lev
 | [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) | Erdős minimum overlap constant | 0.379005 | 0.380868 |
 | [1c](https://teorth.github.io/optimizationproblems/constants/1c.html) | Barnard–Steinerberger autocorrelation constant | 0.4103287* | 0.4107675 |
 | [1d](https://teorth.github.io/optimizationproblems/constants/1d.html) | Signed third autocorrelation constant | 1 | 1.463071582607559* |
+| [1a](https://teorth.github.io/optimizationproblems/constants/1a.html) | Sidon set autocorrelation constant | 1.2802 (1.292*) | 1.5027435 |
+| [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) | Erdős minimum overlap constant | 0.379005 | 0.38085856 |
 | [2](https://teorth.github.io/optimizationproblems/constants/2a.html) | Crouzeix constant | 2 | 2 |
 | [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) | Gyarmati-Hennecart-Ruzsa sum-difference constant | 1.19102809 (1.19519192*) | 1.33333 (1.31237330*) |
 | [3b](https://teorth.github.io/optimizationproblems/constants/3b.html) | Kakeya sums-differences constant | 1.77898884 | 1.83333 |
@@ -203,6 +205,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [86](https://teorth.github.io/optimizationproblems/constants/86a.html) **improved upper bound (unverified):** $C_{86} \leq 1.8117251*$ by [R. Pinho](https://github.com/rpinho/c86-trace-certificate), 15 Oct 2026: the measure construction of Talebizadeh Sardari–Orloski with eleven auxiliary polynomials instead of four, certified in exact rational and arb ball arithmetic.
 - [82](https://teorth.github.io/optimizationproblems/constants/82a.html) **improved upper bound (unverified):** $C_{82} < 0.2534449*$ by [R. Pinho](https://github.com/rpinho/c82-height-certificate), 16 Oct 2026, building on the September 2026 Épi construction (0.2535744749): Doche's limit-point method with $P\_7$ and 25 lattice-found numerator factors, certified by two independently written Arb checkers.
 - [31](https://teorth.github.io/optimizationproblems/constants/31a.html) **improved upper bound (unverified):** $C_{31} \leq 0.824120*$ by [L. Jack](https://github.com/leandrejack-afk/chvatal-sankoff-bound), 17 Oct 2026: Lueker's 2009 automaton method run at $h = 10$ (and $h = 9$, giving $0.825101$).
+- [1a](https://teorth.github.io/optimizationproblems/constants/1a.html), [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) **improved upper bounds:** $C\_{1a} \leq 1.5027435$ and $C\_{1b} \leq 0.38085856$ by [Atris](https://github.com/atrislabs/records), 13 Oct 2026.
 
 ## Maintainers
 
