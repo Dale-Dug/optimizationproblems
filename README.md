@@ -131,12 +131,13 @@ Bounds for which the level of available verification is currently at minimal lev
 | [87](https://teorth.github.io/optimizationproblems/constants/87a.html) | Martinet's constant for totally real number fields | 60.8395 | 857.567 |
 | [88a](https://teorth.github.io/optimizationproblems/constants/88a.html) | Bounded prime gap constant | 2 | 186 |
 | [88b](https://teorth.github.io/optimizationproblems/constants/88b.html) | Exponent for bounded gaps between many primes | 0 | 3.8075 |
-| [89](https://teorth.github.io/optimizationproblems/constants/89a.html) | Ramsey multiplicity constant of $K\_4$ | 0.0296 | 0.030145 (0.0301388876*) |
+| [89](https://teorth.github.io/optimizationproblems/constants/89a.html) | Ramsey multiplicity constant of $K\_4$ | 0.0296 | 0.030145 (0.0301388857*) |
 
 
 ## Recent progress
 
 
+- [89](https://teorth.github.io/optimizationproblems/constants/89a.html) **improved upper bound (unverified):** $C\_{89} \leq 0.0301388857$* by D. Koshta with Claude (Anthropic), 23 Oct 2026; one more balanced sign refinement of the [L. Van Seters and M. Jothimani](https://github.com/lukevs/k4-ramsey) step graphon (7680 classes, exact count, independently verified; [amplitudes, rebuild script and verifier](https://github.com/DennisKoshta/c89-k4-ramsey-multiplicity-certificate)).
 - [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) **improved lower bound (unverified):** $C\_{84a} \geq 1.04317$* by [E. Naslund](https://hexagonmath.org/2610.00016v2), 10 Oct 2026. Version 2 of the [Palomar-registered Lean formalization](https://palomar-registry.org/entry?id=PALOMAR-2026-10-01-000018&version=2) proves the exponent $1.04315$ conditional on one explicit zeta inequality, established separately by [interval certificates](https://github.com/enaslund/unit-distance-bound-0.0427/tree/b43f0c5bfd7a3276597c6a47ad99b9e5b8d3d21f/papers/0.043171/certificates).
 - [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) **improved lower bound (unverified):** $C\_{84a} \geq 1.0427$* by [E. Naslund](https://hexagonmath.org/2610.00016v1), 2 Oct 2026. The [Palomar-registered Lean theorem](https://palomar-registry.org/entry?id=PALOMAR-2026-10-01-000018&version=1) is conditional on one explicit zeta inequality, established separately by [interval certificates](https://github.com/enaslund/unit-distance-bound-0.0427/tree/14289d9d528881efef7db051f0078f519d470c68/papers/0.04273/certificates).
 - [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) **improved upper bound:** $C\_{84a} \leq 4/3 - \varepsilon$ for an absolute $\varepsilon > 0$ by [OpenAI](https://github.com/openai/math/tree/main/preprints/A-power-saving-for-planar-unit-distances-September-23-2026), 23 Sep 2026.
