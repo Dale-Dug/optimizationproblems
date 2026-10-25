@@ -53,7 +53,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) | KLS constant for log-concave probability measures | $\sqrt{\pi/2} \approx 1.25331$ | $\infty$ |
 | [21](https://teorth.github.io/optimizationproblems/constants/21a.html) | de Bruijn–Newman constant | 0 | 0.2 (0.1595*) |
 | [22a](https://teorth.github.io/optimizationproblems/constants/22a.html) | Tight knot constant | 1.105 | 10.76 (10.02*) |
-| [22b](https://teorth.github.io/optimizationproblems/constants/22b.html) | Tight alternating knot constant | 0.017 | 7.31 |
+| [22b](https://teorth.github.io/optimizationproblems/constants/22b.html) | Tight alternating knot constant | 0.017 | 7.31 (7.2013*) |
 | [23a](https://teorth.github.io/optimizationproblems/constants/23a.html) | Smallest unsolved instance of the Hadamard conjecture | 668 | $\infty$ |
 | [23b](https://teorth.github.io/optimizationproblems/constants/23b.html) | Minimal condition number decay for sign matrices | $\frac{17}{92}$ | 1 |
 | [23c](https://teorth.github.io/optimizationproblems/constants/23c.html) | Asymptotic counting exponent for partial Hadamard matrices | 1 | 3 |
@@ -136,6 +136,7 @@ Bounds for which the level of available verification is currently at minimal lev
 ## Recent progress
 
 
+- [22b](https://teorth.github.io/optimizationproblems/constants/22b.html) **improved upper bound (unverified):** $C\_{22b} \leq 7.2012719$* by Claude Opus 5.5 (Anthropic), via an optimal unequal coaxial double helix and an interval-arithmetic proof that $L(T(2,n)) \leq 7.2012719\,n + 19.649$ for odd $n \geq 59$ ([paper and code](https://github.com/YouhuaLi/tight-alternating-knot-constant/tree/debf7c92f93bae64486e6302e565a2d3b1290f9c)), submitted to this repository, 25 Oct 2026.
 - [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) **improved lower bound (unverified):** $C\_{84a} \geq 1.04317$* by [E. Naslund](https://hexagonmath.org/2610.00016v2), 10 Oct 2026. Version 2 of the [Palomar-registered Lean formalization](https://palomar-registry.org/entry?id=PALOMAR-2026-10-01-000018&version=2) proves the exponent $1.04315$ conditional on one explicit zeta inequality, established separately by [interval certificates](https://github.com/enaslund/unit-distance-bound-0.0427/tree/b43f0c5bfd7a3276597c6a47ad99b9e5b8d3d21f/papers/0.043171/certificates).
 - [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) **improved lower bound (unverified):** $C\_{84a} \geq 1.0427$* by [E. Naslund](https://hexagonmath.org/2610.00016v1), 2 Oct 2026. The [Palomar-registered Lean theorem](https://palomar-registry.org/entry?id=PALOMAR-2026-10-01-000018&version=1) is conditional on one explicit zeta inequality, established separately by [interval certificates](https://github.com/enaslund/unit-distance-bound-0.0427/tree/14289d9d528881efef7db051f0078f519d470c68/papers/0.04273/certificates).
 - [84a](https://teorth.github.io/optimizationproblems/constants/84a.html) **improved upper bound:** $C\_{84a} \leq 4/3 - \varepsilon$ for an absolute $\varepsilon > 0$ by [OpenAI](https://github.com/openai/math/tree/main/preprints/A-power-saving-for-planar-unit-distances-September-23-2026), 23 Sep 2026.
