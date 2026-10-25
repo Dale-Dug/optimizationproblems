@@ -131,7 +131,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [87](https://teorth.github.io/optimizationproblems/constants/87a.html) | Martinet's constant for totally real number fields | 60.8395 | 857.567 |
 | [88a](https://teorth.github.io/optimizationproblems/constants/88a.html) | Bounded prime gap constant | 2 | 186 |
 | [88b](https://teorth.github.io/optimizationproblems/constants/88b.html) | Exponent for bounded gaps between many primes | 0 | 3.8075 |
-| [89](https://teorth.github.io/optimizationproblems/constants/89a.html) | Ramsey multiplicity constant of $K\_4$ | 0.0296 | 0.030145 (0.0301388876*) |
+| [89](https://teorth.github.io/optimizationproblems/constants/89a.html) | Ramsey multiplicity constant of $K\_4$ | 0.0296 | 0.030145 (0.0301388794*) |
 
 
 ## Recent progress
@@ -209,6 +209,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [31](https://teorth.github.io/optimizationproblems/constants/31a.html) **improved upper bound (unverified):** $C_{31} \leq 0.824120*$ by [L. Jack](https://github.com/leandrejack-afk/chvatal-sankoff-bound), 17 Oct 2026: Lueker's 2009 automaton method run at $h = 10$ (and $h = 9$, giving $0.825101$).
 - [1a](https://teorth.github.io/optimizationproblems/constants/1a.html), [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) **improved upper bounds (unverified):** $C\_{1a} \leq 1.5027435$* and $C\_{1b} \leq 0.38085856$* by [Atris](https://github.com/atrislabs/records), 13 Oct 2026.
 - [89](https://teorth.github.io/optimizationproblems/constants/89a.html) **new constant:** the Ramsey multiplicity constant of $K\_4$, with $0.0296 \le C\_{89} \le 0.030145$ (flag algebras of [A. Grzesik, J. Lee, B. Lidický, J. Volec](https://arxiv.org/abs/2012.02057); Cayley-graph blow-ups of [O. Parczyk, S. Pokutta, C. Spiegel, T. Szabó](https://arxiv.org/abs/2206.04036)) and the unverified $C\_{89} \le 0.0301388876$* of [L. Van Seters and M. Jothimani](https://github.com/lukevs/k4-ramsey), 2026.
+- [89](https://teorth.github.io/optimizationproblems/constants/89a.html) **improved upper bound (unverified):** $C\_{89} \le 0.0301388794$* by J. SK ([certificate](https://github.com/JeetuSK0808/tao-constants-certificates/tree/3d9431a00abf03be3752f8f9f126dec81ac34987/c89-k4-ramsey-multiplicity)), 25 Oct 2026: gradient refinement of the Van Seters–Jothimani step graphon, density computed exactly.
 
 ## Maintainers
 
