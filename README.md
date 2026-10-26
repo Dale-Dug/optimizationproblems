@@ -97,7 +97,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [56](https://teorth.github.io/optimizationproblems/constants/56a.html) | $\mathrm{GL}_2$ Ramanujan conjecture exponent | 0 | $\tfrac{7}{64}=0.109375$ |
 | [57a](https://teorth.github.io/optimizationproblems/constants/57a.html) | Bloch’s constant | $\frac{\sqrt{3}}{4}+2\times 10^{-4}$ | $\dfrac{1}{\sqrt{1+\sqrt{3}}}\,\dfrac{\Gamma(1/3)\Gamma(11/12)}{\Gamma(1/4)}\approx 0.4719$ |
 | [57b](https://teorth.github.io/optimizationproblems/constants/57b.html) | Landau's constant | $\frac{1}{2}+10^{-335}$ | $\dfrac{\Gamma(1/3)\Gamma(5/6)}{\Gamma(1/6)}\approx 0.5433$ |
-| [57c](https://teorth.github.io/optimizationproblems/constants/57c.html) | Univalent Bloch constant | 0.5708858 | 1 |
+| [57c](https://teorth.github.io/optimizationproblems/constants/57c.html) | Univalent Bloch constant | 0.5708858 | 0.6563937 (0.65628589*) |
 | [58](https://teorth.github.io/optimizationproblems/constants/58a.html) | Zaremba’s conjecture constant | 5 | $\infty$ |
 | [59](https://teorth.github.io/optimizationproblems/constants/59a.html) | Bohr radius for the bidisc | 0.3006 | 0.302825279492 |
 | [60](https://teorth.github.io/optimizationproblems/constants/60a.html) | Favard-length decay exponent | $\frac{1}{6}$ | 1 |
@@ -214,6 +214,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [24](https://teorth.github.io/optimizationproblems/constants/24a.html) **Komlós conjecture proved (unverified):** $C\_{24} \leq 3\sqrt{2\pi} \approx 7.5199$* by [S. Guo, E. X. Fang, J. Lu](https://arxiv.org/abs/2609.11189), 10 Sep 2026.
 - [24](https://teorth.github.io/optimizationproblems/constants/24a.html) **Komlós conjecture proved:** $C\_{24} \leq 36$ by [S. R. Karingula and S. Lovett](https://arxiv.org/abs/2609.20979), 17 Sep 2026, formalized in Lean 4 by G. Dahia ([PALOMAR-2026-09-18-000003](https://palomar-registry.org/entry?id=PALOMAR-2026-09-18-000003&version=1)).
 - [24](https://teorth.github.io/optimizationproblems/constants/24a.html) **improved upper bound (unverified):** $C\_{24} < 6.9013$* by [E. Akbas and S. Sra](https://arxiv.org/abs/2609.27172v2), 29 Sep 2026.
+- [57c](https://teorth.github.io/optimizationproblems/constants/57c.html) **improved upper bound (unverified):** $C\_{57c} \leq 0.65628589^\*$ by [W. van Staden](https://www.preprints.org/manuscript/202610.1936/v1), 20 Oct 2026 (DOI 10.20944/preprints202610.1936.v1); computer-assisted proof (exact covering for the inradius, Arb ball arithmetic for the conformal radius), [code and certificates](https://github.com/WynandVStaden/bloch-landau-slit-discs). The page now also records the earlier upper bounds, including $0.6563937$ (Carroll and Ortega-Cerdà, 2009) and $0.656319277272^\*$ (Ortega-Cerdà and Pridhnani, 2010).
 
 ## Maintainers
 
