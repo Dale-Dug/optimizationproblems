@@ -105,8 +105,8 @@ Bounds for which the level of available verification is currently at minimal lev
 | [62a](https://teorth.github.io/optimizationproblems/constants/62a.html) | Lindelof (pointwise growth) exponent for the Riemann zeta function | 0 | $\frac{13}{84}$ |
 | [62b](https://teorth.github.io/optimizationproblems/constants/62b.html) | Burgess-quality subconvexity exponent for Dirichlet $L$-functions | 0 | $\frac{3}{16}$ |
 | [63](https://teorth.github.io/optimizationproblems/constants/63a.html) | Dirichlet divisor problem exponent | $\frac{1}{4}$ | $\frac{131}{416}$ |
-| [64](https://teorth.github.io/optimizationproblems/constants/64a.html) | Gauss circle problem exponent | $\frac{1}{2}$ | $\frac{131}{208}$ |
-| [65](https://teorth.github.io/optimizationproblems/constants/65a.html) | Linnik's constant | 1 | 5 |
+| [64](https://teorth.github.io/optimizationproblems/constants/64a.html) | Gauss circle problem exponent | 0 | $\frac{131}{208}$ |
+| [65](https://teorth.github.io/optimizationproblems/constants/65a.html) | Linnik's constant | 1 | 5 (2.4*) |
 | [66](https://teorth.github.io/optimizationproblems/constants/66a.html) | Elliott-Halberstam level-of-distribution exponent | $\frac{1}{2}$ | 1 |
 | [67](https://teorth.github.io/optimizationproblems/constants/67a.html) | Brennan's conjecture exponent | 3.422 | 4 |
 | [68](https://teorth.github.io/optimizationproblems/constants/68a.html) | Korenblum's constant | 0.4263 (0.432*) | 0.6778994 |
@@ -247,6 +247,8 @@ Bounds for which the level of available verification is currently at minimal lev
 - [23b](https://teorth.github.io/optimizationproblems/constants/23b.html) **improved upper bound:** $C\_{23b} \leq 1/2$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 15 Oct 2026.
 - [16](https://teorth.github.io/optimizationproblems/constants/16a.html) **new upper bound (unverified):** $C_{16} \leq 2.1562256466*$ ([certificates](https://github.com/maximusrufus/c16-bgw-certificates), 20 Oct 2026): a Cauchy–Schwarz dual bound with interval branch-and-bound over $\delta$. Together with the lower bound from [#226](https://github.com/teorth/optimizationproblems/pull/226) (here refined to $2.1562247706*$) this encloses $C_{16}$ in an interval of width $9 \times 10^{-7}$ that excludes the numerical value $\approx 2.15627$ of [BDZ2013].
 - [28](https://teorth.github.io/optimizationproblems/constants/28a.html) **improved upper bound (unverified):** $C_{28} \leq 9$* by [OpenAI](https://github.com/openai/math/tree/main/preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026), 23 Sep 2026, down from 63: the rank-one projectors on $\mathbb{R}^4$ in Frobenius metric need more than ten smaller-diameter parts.
+- [65](https://teorth.github.io/optimizationproblems/constants/65a.html) **improved upper bound (unverified):** $C\_{65} \leq 2.4$*, a corollary of [OpenAI's $7/8$ quasi-Riemann hypothesis](https://github.com/openai/math/tree/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026) for Dirichlet $L$-functions, 30 Sep 2026.
+- [65](https://teorth.github.io/optimizationproblems/constants/65a.html) **improved upper bound (unverified):** $C\_{65} \leq 3.99$* by [E. Naslund](https://hexagonmath.org/2610.00018v1), 2 Oct 2026, with public computational certificates and a partial Lean formalization.
 
 ## Maintainers
 
