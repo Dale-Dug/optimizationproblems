@@ -133,6 +133,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [88a](https://teorth.github.io/optimizationproblems/constants/88a.html) | Bounded prime gap constant | 2 | 186 |
 | [88b](https://teorth.github.io/optimizationproblems/constants/88b.html) | Exponent for bounded gaps between many primes | 0 | 3.8075 |
 | [90](https://teorth.github.io/optimizationproblems/constants/90a.html) | Maximum minimum modulus of a distinct covering system | 44* | 615999 |
+| [89](https://teorth.github.io/optimizationproblems/constants/89a.html) | Ramsey multiplicity constant of $K\_4$ | 0.0296 | 0.030145 (0.0301388794*) |
 
 
 ## Recent progress
@@ -232,6 +233,8 @@ Bounds for which the level of available verification is currently at minimal lev
 - [1a](https://teorth.github.io/optimizationproblems/constants/1a.html), [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) **improved upper bounds:** $C\_{1a} \leq 1.5027435$ and $C\_{1b} \leq 0.38085856$ by [Atris](https://github.com/atrislabs/records), 13 Oct 2026.
 - [1a](https://teorth.github.io/optimizationproblems/constants/1a.html), [1b](https://teorth.github.io/optimizationproblems/constants/1b.html) **independently replayed:** the step functions behind $C\_{1a} \leq 1.5027434868$ and $C\_{1b} \leq 0.3808585504$ (Atris) and $C\_{1a} \leq 1.5027435320$ and $C\_{1b} \leq 0.3808585749$ (EinsteinArena) re-derived in exact rational arithmetic, with no code shared with the claimants, by [C. Toledo](https://carlostoledo.co/reports/optconst-queue.html#step-functions), 18 Oct 2026; asterisks removed.
 - [1c](https://teorth.github.io/optimizationproblems/constants/1c.html) **improved lower bound (unverified):** $C\_{1c} \geq 0.4103333$* by D. Koshta with Claude (Anthropic) ([certificate and verifiers](https://github.com/DennisKoshta/c1c-autocorrelation-certificate)), 23 Oct 2026: a step function on $K = 24576$ cells refined from that of rozetyp (previously $0.4103287$ by rozetyp).
+- [89](https://teorth.github.io/optimizationproblems/constants/89a.html) **new constant:** the Ramsey multiplicity constant of $K\_4$, with $0.0296 \le C\_{89} \le 0.030145$ (flag algebras of [A. Grzesik, J. Lee, B. Lidický, J. Volec](https://arxiv.org/abs/2012.02057); Cayley-graph blow-ups of [O. Parczyk, S. Pokutta, C. Spiegel, T. Szabó](https://arxiv.org/abs/2206.04036)) and the unverified $C\_{89} \le 0.0301388876$* of [L. Van Seters and M. Jothimani](https://github.com/lukevs/k4-ramsey), 2026.
+- [89](https://teorth.github.io/optimizationproblems/constants/89a.html) **improved upper bound (unverified):** $C\_{89} \le 0.0301388794$* by J. SK ([certificate](https://github.com/JeetuSK0808/tao-constants-certificates/tree/3d9431a00abf03be3752f8f9f126dec81ac34987/c89-k4-ramsey-multiplicity)), 25 Oct 2026: gradient refinement of the Van Seters–Jothimani step graphon, density computed exactly.
 
 ## Maintainers
 
