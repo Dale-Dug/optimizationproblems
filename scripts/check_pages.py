@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Consistency checker for the Optimization Constants repository (README.md and constants/*.md).
+r"""Consistency checker for the Optimization Constants repository (README.md and constants/*.md).
 
 It catches the defects that CONTRIBUTING.md describes and that have needed manual fixes after merges:
 
