@@ -44,19 +44,19 @@ Bounds for which the level of available verification is currently at minimal lev
 | [14](https://teorth.github.io/optimizationproblems/constants/14a.html) | Smallest $n$ for which the value of $BB(n)$ is undecidable | 6 | 432 |
 | [15a](https://teorth.github.io/optimizationproblems/constants/15a.html) | Matrix multiplication exponent | 2 | 2.371177 |
 | [15b](https://teorth.github.io/optimizationproblems/constants/15b.html) | Dual matrix multiplication exponent | >0.321334 | 1 |
-| [16](https://teorth.github.io/optimizationproblems/constants/16a.html) | Brezis–Gallouet–Wainger remainder constant on the 2D torus | $\frac{\beta + \pi}{\pi} \approx 1.82283$ | $\approx 2.15627$ |
+| [16](https://teorth.github.io/optimizationproblems/constants/16a.html) | Brezis–Gallouet–Wainger remainder constant on the 2D torus | $2.156224$ | $\approx 2.15627$ |
 | [17](https://teorth.github.io/optimizationproblems/constants/17a.html) | Exponential growth constant of diagonal Ramsey numbers | $\sqrt{2} \approx 1.4142$ | 3.7919936995 |
 | [17b](https://teorth.github.io/optimizationproblems/constants/17b.html) | Asymptotic constant for the off-diagonal Ramsey numbers $R(3,k)$ | $\frac{1}{2}$ | $1$ |
 | [18](https://teorth.github.io/optimizationproblems/constants/18a.html) | Marton's conjecture constant (PFR) | 1.46601 | 9 |
 | [19](https://teorth.github.io/optimizationproblems/constants/19a.html) | Berry–Esseen constant | 0.4097321837 | 0.4690 (0.423*) |
-| [20a](https://teorth.github.io/optimizationproblems/constants/20a.html) | Thin shell conjecture constant | 2 | $< \infty$ |
+| [20a](https://teorth.github.io/optimizationproblems/constants/20a.html) | Thin shell conjecture constant | 8 | $< \infty$ |
 | [20b](https://teorth.github.io/optimizationproblems/constants/20b.html) | Isotropic constant of a log-concave probability measure | $1/e$ | $< \infty$ |
-| [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) | KLS constant for log-concave probability measures | $\sqrt{\pi/2} \approx 1.25331$ | $\infty$ |
+| [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) | KLS constant for log-concave probability measures | $\sqrt{3} \approx 1.73205$ | $\infty$ |
 | [21](https://teorth.github.io/optimizationproblems/constants/21a.html) | de Bruijn–Newman constant | 0 | 0.2 (0.1595*) |
 | [22a](https://teorth.github.io/optimizationproblems/constants/22a.html) | Tight knot constant | 1.105 | 10.76 (10.02*) |
 | [22b](https://teorth.github.io/optimizationproblems/constants/22b.html) | Tight alternating knot constant | 0.017 | 7.31 (7.2013*) |
 | [23a](https://teorth.github.io/optimizationproblems/constants/23a.html) | Smallest unsolved instance of the Hadamard conjecture | 668 | $\infty$ |
-| [23b](https://teorth.github.io/optimizationproblems/constants/23b.html) | Minimal condition number decay for sign matrices | $\frac{17}{92}$ | 1 |
+| [23b](https://teorth.github.io/optimizationproblems/constants/23b.html) | Minimal condition number decay for sign matrices | $\frac{17}{92}$ | $1/2$ |
 | [23c](https://teorth.github.io/optimizationproblems/constants/23c.html) | Asymptotic counting exponent for partial Hadamard matrices | 1 | 3 |
 | [24](https://teorth.github.io/optimizationproblems/constants/24a.html) | Komlós discrepancy constant | $1+\sqrt{2}$ | 36 (6.9013*) |
 | [25](https://teorth.github.io/optimizationproblems/constants/25a.html) | Mahler volume product constant | $\pi$ | 4 |
@@ -111,7 +111,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [67](https://teorth.github.io/optimizationproblems/constants/67a.html) | Brennan's conjecture exponent | 3.422 | 4 |
 | [68](https://teorth.github.io/optimizationproblems/constants/68a.html) | Korenblum's constant | 0.4263 (0.432*) | 0.6778994 |
 | [69](https://teorth.github.io/optimizationproblems/constants/69a.html) | Sendov radius constant | 1 | 2 |
-| [70](https://teorth.github.io/optimizationproblems/constants/70a.html) | Reverse Brunn-Minkowski constant | 1 | $<\infty$ |
+| [70](https://teorth.github.io/optimizationproblems/constants/70a.html) | Reverse Brunn-Minkowski constant | $1.201927$ | $<\infty$ |
 | [71](https://teorth.github.io/optimizationproblems/constants/71a.html) | Fourier Entropy-Influence constant | 6.521845710923046575 | $\infty$ |
 | [72](https://teorth.github.io/optimizationproblems/constants/72a.html) | Polya-Vinogradov best constant (squarefree asymptotic) | 0 | $\frac{1}{4\pi}\approx 0.07958$ |
 | [73](https://teorth.github.io/optimizationproblems/constants/73a.html) | Flatness constant in dimension 3 | $2+\sqrt{2}$ | $<3.972$ |
@@ -236,6 +236,11 @@ Bounds for which the level of available verification is currently at minimal lev
 - [1c](https://teorth.github.io/optimizationproblems/constants/1c.html) **improved lower bound (unverified):** $C\_{1c} \geq 0.4103333$* by D. Koshta with Claude (Anthropic) ([certificate and verifiers](https://github.com/DennisKoshta/c1c-autocorrelation-certificate)), 23 Oct 2026: a step function on $K = 24576$ cells refined from that of rozetyp (previously $0.4103287$ by rozetyp).
 - [89](https://teorth.github.io/optimizationproblems/constants/89a.html) **new constant:** the Ramsey multiplicity constant of $K\_4$, with $0.0296 \le C\_{89} \le 0.030145$ (flag algebras of [A. Grzesik, J. Lee, B. Lidický, J. Volec](https://arxiv.org/abs/2012.02057); Cayley-graph blow-ups of [O. Parczyk, S. Pokutta, C. Spiegel, T. Szabó](https://arxiv.org/abs/2206.04036)) and the unverified $C\_{89} \le 0.0301388876$* of [L. Van Seters and M. Jothimani](https://github.com/lukevs/k4-ramsey), 2026.
 - [89](https://teorth.github.io/optimizationproblems/constants/89a.html) **improved upper bound (unverified):** $C\_{89} \le 0.0301388794$* by J. SK ([certificate](https://github.com/JeetuSK0808/tao-constants-certificates/tree/3d9431a00abf03be3752f8f9f126dec81ac34987/c89-k4-ramsey-multiplicity)), 25 Oct 2026: gradient refinement of the Van Seters–Jothimani step graphon, density computed exactly.
+- [16](https://teorth.github.io/optimizationproblems/constants/16a.html) **improved lower bound:** $C\_{16} \geq 2.156224$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
+- [20a](https://teorth.github.io/optimizationproblems/constants/20a.html) **improved lower bound:** $C\_{20a} \geq 8$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
+- [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) **improved lower bound:** $C\_{20c} \geq \sqrt{3}$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
+- [70](https://teorth.github.io/optimizationproblems/constants/70a.html) **improved lower bound:** $C\_{70} \geq 1.201927$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
+- [23b](https://teorth.github.io/optimizationproblems/constants/23b.html) **improved upper bound:** $C\_{23b} \leq 1/2$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 15 Oct 2026.
 
 ## Maintainers
 
