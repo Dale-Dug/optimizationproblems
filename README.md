@@ -44,7 +44,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [14](https://teorth.github.io/optimizationproblems/constants/14a.html) | Smallest $n$ for which the value of $BB(n)$ is undecidable | 6 | 432 |
 | [15a](https://teorth.github.io/optimizationproblems/constants/15a.html) | Matrix multiplication exponent | 2 | 2.371177 |
 | [15b](https://teorth.github.io/optimizationproblems/constants/15b.html) | Dual matrix multiplication exponent | >0.321334 | 1 |
-| [16](https://teorth.github.io/optimizationproblems/constants/16a.html) | Brezis–Gallouet–Wainger remainder constant on the 2D torus | $2.156224$ | $\approx 2.15627$ |
+| [16](https://teorth.github.io/optimizationproblems/constants/16a.html) | Brezis–Gallouet–Wainger remainder constant on the 2D torus | $\frac{\beta + \pi}{\pi} \approx 1.82283$ ($2.1562247706^\*$) | $2.1562256466^\*$ |
 | [17](https://teorth.github.io/optimizationproblems/constants/17a.html) | Exponential growth constant of diagonal Ramsey numbers | $\sqrt{2} \approx 1.4142$ | 3.7919936995 |
 | [17b](https://teorth.github.io/optimizationproblems/constants/17b.html) | Asymptotic constant for the off-diagonal Ramsey numbers $R(3,k)$ | $\frac{1}{2}$ | $1$ |
 | [18](https://teorth.github.io/optimizationproblems/constants/18a.html) | Marton's conjecture constant (PFR) | 1.46601 | 9 |
@@ -241,6 +241,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [20c](https://teorth.github.io/optimizationproblems/constants/20c.html) **improved lower bound:** $C\_{20c} \geq \sqrt{3}$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 - [70](https://teorth.github.io/optimizationproblems/constants/70a.html) **improved lower bound:** $C\_{70} \geq 1.201927$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 - [23b](https://teorth.github.io/optimizationproblems/constants/23b.html) **improved upper bound:** $C\_{23b} \leq 1/2$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 15 Oct 2026.
+- [16](https://teorth.github.io/optimizationproblems/constants/16a.html) **new upper bound (unverified):** $C_{16} \leq 2.1562256466*$ ([certificates](https://github.com/maximusrufus/c16-bgw-certificates), 20 Oct 2026): a Cauchy–Schwarz dual bound with interval branch-and-bound over $\delta$. Together with the lower bound from [#226](https://github.com/teorth/optimizationproblems/pull/226) (here refined to $2.1562247706*$) this encloses $C_{16}$ in an interval of width $9 \times 10^{-7}$ that excludes the numerical value $\approx 2.15627$ of [BDZ2013].
 
 ## Maintainers
 
