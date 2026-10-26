@@ -82,7 +82,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [41b](https://teorth.github.io/optimizationproblems/constants/41b.html) | Ambidextrous moving sofa constant | 1.64495521 | 2.2195 |
 | [42](https://teorth.github.io/optimizationproblems/constants/42a.html) | Turan's pure power sum constant | >0.5 | 0.69368 (0.6906538*) |
 | [43](https://teorth.github.io/optimizationproblems/constants/43a.html) | Gilbert-Pollak conjecture (Steiner ratio) | 0.8559 (0.860*) | 0.86602540378 |
-| [44](https://teorth.github.io/optimizationproblems/constants/44a.html) | Maximal number of relevant variables in Boolean functions of degree $d$ | 1.5 | 4.394 |
+| [44](https://teorth.github.io/optimizationproblems/constants/44a.html) | Maximal number of relevant variables in Boolean functions of degree $d$ | 1.5 | 4.3576549226* |
 | [45](https://teorth.github.io/optimizationproblems/constants/45a.html) | Density of odd integers that are the sum of a prime and a power of two | 0.107648 | 0.490180063290061 |
 | [46](https://teorth.github.io/optimizationproblems/constants/46a.html) | Fourier restriction constant for the 2-sphere | 3 |  $\frac{22}{7}\approx 3.142857$  |
 | [47](https://teorth.github.io/optimizationproblems/constants/47a.html) | Centered Hardy-Littlewood maximal constant in dimension $2$ | 1.68550999 | 3.879 |
@@ -136,6 +136,8 @@ Bounds for which the level of available verification is currently at minimal lev
 
 
 ## Recent progress
+
+- [44](https://teorth.github.io/optimizationproblems/constants/44a.html) **improved upper bound (unrefereed):** $C\_{44} \leq 4.3576549226$* by [Ricardo Pinho](https://github.com/rpinho/c44-certificate/tree/f3fb25dfb88de3da8b1a0b30f03fdb51b78ccef9), 23 Oct 2026. A degree-three local-weight cap $5/4$ sharpens Wellens's recurrence using BakeLab/Épi's existing exact certificates; the exact recurrence gain is $1/128$. Both exact checkers were written by the same AI agent; author review was at summary level.
 
 
 - [17b](https://teorth.github.io/optimizationproblems/constants/17b.html) **new constant:** the asymptotic constant $C\_{17b} = \lim R(3,k) \log k / k^2$ ([Erdős problem #165](https://www.erdosproblems.com/165)), with $\frac{1}{2} \leq C\_{17b} \leq 1$ by [Z. Hefty, P. Horn, D. King and F. Pfender](https://arxiv.org/abs/2510.19718) (2025) and J. B. Shearer (1983). Page added 22 Oct 2026.
