@@ -64,7 +64,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [26b](https://teorth.github.io/optimizationproblems/constants/26b.html) | Multilinear Bohnenblust--Hille constant (real) | $2$ | $\infty$ |
 | [27a](https://teorth.github.io/optimizationproblems/constants/27a.html) | Chromatic number of the plane | 5 | 7 |
 | [27b](https://teorth.github.io/optimizationproblems/constants/27b.html) | Maximum Chromatic Number of Biplanar Graphs | 9 | 12 |
-| [28](https://teorth.github.io/optimizationproblems/constants/28a.html) | Smallest dimension in which Borsuk’s conjecture fails | 4 | 9 |
+| [28](https://teorth.github.io/optimizationproblems/constants/28a.html) | Smallest dimension in which Borsuk’s conjecture fails | 4 | 63 (9*) |
 | [29](https://teorth.github.io/optimizationproblems/constants/29a.html) | Kissing number in dimension $5$ | 40 | 44 |
 | [30](https://teorth.github.io/optimizationproblems/constants/30a.html) | Stanley–Wilf limit for the permutation pattern $1324$ | 10.27 | 13.5 |
 | [31](https://teorth.github.io/optimizationproblems/constants/31a.html) | Chvátal–Sankoff constant for a binary alphabet | 0.792665992 (0.79970*) | 0.826280 (0.824120*) |
@@ -246,6 +246,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [70](https://teorth.github.io/optimizationproblems/constants/70a.html) **improved lower bound:** $C\_{70} \geq 1.201927$ (rigorous) by [V. Patankar](https://github.com/vidigoat/optimization-records), 14 Oct 2026.
 - [23b](https://teorth.github.io/optimizationproblems/constants/23b.html) **improved upper bound:** $C\_{23b} \leq 1/2$ by [V. Patankar](https://github.com/vidigoat/optimization-records), 15 Oct 2026.
 - [16](https://teorth.github.io/optimizationproblems/constants/16a.html) **new upper bound (unverified):** $C_{16} \leq 2.1562256466*$ ([certificates](https://github.com/maximusrufus/c16-bgw-certificates), 20 Oct 2026): a Cauchy–Schwarz dual bound with interval branch-and-bound over $\delta$. Together with the lower bound from [#226](https://github.com/teorth/optimizationproblems/pull/226) (here refined to $2.1562247706*$) this encloses $C_{16}$ in an interval of width $9 \times 10^{-7}$ that excludes the numerical value $\approx 2.15627$ of [BDZ2013].
+- [28](https://teorth.github.io/optimizationproblems/constants/28a.html) **improved upper bound (unverified):** $C_{28} \leq 9$* by [OpenAI](https://github.com/openai/math/tree/main/preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026), 23 Sep 2026, down from 63: the rank-one projectors on $\mathbb{R}^4$ in Frobenius metric need more than ten smaller-diameter parts.
 
 ## Maintainers
 
