@@ -6,6 +6,7 @@ It catches the defects that CONTRIBUTING.md describes and that have needed manua
   E1  README row links a constants/ page that does not exist
   E2  duplicated README rows (same constant id or same page)
   E3  constant page without a "## References" heading
+  E4  an unresolved merge-conflict marker left in a tracked Markdown file
   W1  README bound value with no matching number on the constant's page (stale README cell or a typo).
       Rounding in the last digit is allowed, and numbers given only as fractions or closed forms are skipped.
   W2  "_" or "*" inside inline $...$ that kramdown will pair into emphasis, breaking the math
@@ -176,11 +177,24 @@ def has_bare_pipe(line):
     return any(c == "|" and not cm[k] and (k == 0 or line[k - 1] != "\\") for k, c in enumerate(line))
 
 
+CONFLICT = re.compile(r"^(<{7}|={7}|>{7})(\s|$)")
+
+
+def conflict_markers(path, rel):
+    """Unresolved merge-conflict markers. Cheap, and they have reached main."""
+    out = []
+    for ln, line in enumerate(open(path, encoding="utf-8").read().split("\n"), 1):
+        if CONFLICT.match(line):
+            out.append(("E4", f"{rel}:{ln}", f"merge-conflict marker {line.strip()[:9]!r}"))
+    return out
+
+
 def main(root):
     problems = []
     readme_path = os.path.join(root, "README.md")
     const_dir = os.path.join(root, "constants")
     readme = open(readme_path, encoding="utf-8").read().splitlines()
+    problems += conflict_markers(readme_path, "README.md")
     seen_id, seen_file, linked = {}, {}, set()
     for ln, line in enumerate(readme, 1):
         m = ROW.match(line)
@@ -215,6 +229,7 @@ def main(root):
         rel = f"constants/{fname}"
         text = open(os.path.join(const_dir, fname), encoding="utf-8").read()
         lines = text.split("\n")
+        problems += conflict_markers(os.path.join(const_dir, fname), rel)
         if not re.search(r"^##\s+References\s*$", text, re.M):
             problems.append(("E3", rel, 'no "## References" heading'))
         if fname[:-3] not in linked:
