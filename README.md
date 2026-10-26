@@ -109,7 +109,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [65](https://teorth.github.io/optimizationproblems/constants/65a.html) | Linnik's constant | 1 | 5 |
 | [66](https://teorth.github.io/optimizationproblems/constants/66a.html) | Elliott-Halberstam level-of-distribution exponent | $\frac{1}{2}$ | 1 |
 | [67](https://teorth.github.io/optimizationproblems/constants/67a.html) | Brennan's conjecture exponent | 3.422 | 4 |
-| [68](https://teorth.github.io/optimizationproblems/constants/68a.html) | Korenblum's constant | 0.3554 | 0.6778994 |
+| [68](https://teorth.github.io/optimizationproblems/constants/68a.html) | Korenblum's constant | 0.4263 (0.432*) | 0.6778994 |
 | [69](https://teorth.github.io/optimizationproblems/constants/69a.html) | Sendov radius constant | 1 | 2 |
 | [70](https://teorth.github.io/optimizationproblems/constants/70a.html) | Reverse Brunn-Minkowski constant | 1 | $<\infty$ |
 | [71](https://teorth.github.io/optimizationproblems/constants/71a.html) | Fourier Entropy-Influence constant | 6.521845710923046575 | $\infty$ |
@@ -138,6 +138,7 @@ Bounds for which the level of available verification is currently at minimal lev
 ## Recent progress
 
 - [44](https://teorth.github.io/optimizationproblems/constants/44a.html) **improved upper bound (unrefereed):** $C\_{44} \leq 4.3576549226$* by [Ricardo Pinho](https://github.com/rpinho/c44-certificate/tree/f3fb25dfb88de3da8b1a0b30f03fdb51b78ccef9), 23 Oct 2026. A degree-three local-weight cap $5/4$ sharpens Wellens's recurrence using BakeLab/Épi's existing exact certificates; the exact recurrence gain is $1/128$. Both exact checkers were written by the same AI agent; author review was at summary level.
+- [68](https://teorth.github.io/optimizationproblems/constants/68a.html) **improved lower bound (unrefereed):** $C\_{68} \geq 0.432$* by [R. Pinho](https://github.com/rpinho/korenblum-c68-certificate), 19 Oct 2026: covering-strip Schwarz estimate, classical hyperbolic Jung, and Wikström’s moment criterion, with a twelve-atom rational certificate and two exact checkers. Also records Wikström’s preceding 0.4263 bound.
 
 
 - [17b](https://teorth.github.io/optimizationproblems/constants/17b.html) **new constant:** the asymptotic constant $C\_{17b} = \lim R(3,k) \log k / k^2$ ([Erdős problem #165](https://www.erdosproblems.com/165)), with $\frac{1}{2} \leq C\_{17b} \leq 1$ by [Z. Hefty, P. Horn, D. King and F. Pfender](https://arxiv.org/abs/2510.19718) (2025) and J. B. Shearer (1983). Page added 22 Oct 2026.
