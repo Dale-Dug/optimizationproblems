@@ -19,7 +19,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [1c](https://teorth.github.io/optimizationproblems/constants/1c.html) | Barnard–Steinerberger autocorrelation constant | 0.4103287* | 0.4107675 |
 | [1d](https://teorth.github.io/optimizationproblems/constants/1d.html) | Signed third autocorrelation constant | 1 | 1.457854884921989* |
 | [2](https://teorth.github.io/optimizationproblems/constants/2a.html) | Crouzeix constant | 2 | 2 |
-| [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) | Gyarmati-Hennecart-Ruzsa sum-difference constant | 1.19102809 (1.19519192*) | 1.31237330 |
+| [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) | Gyarmati-Hennecart-Ruzsa sum-difference constant | 1.19230254 (1.19519192*) | 1.33333 (1.31237330*) |
 | [3b](https://teorth.github.io/optimizationproblems/constants/3b.html) | Kakeya sums-differences constant | 1.77898884 | 1.83333 |
 | [3c](https://teorth.github.io/optimizationproblems/constants/3c.html) | 4-slope Kakeya-type sum-difference constant | 1.674894211307116 | 1.75 |
 | [3d](https://teorth.github.io/optimizationproblems/constants/3d.html) | Single-set sum-difference exponent | 2 | 2 |
@@ -225,6 +225,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [24](https://teorth.github.io/optimizationproblems/constants/24a.html) **Komlós conjecture proved:** $C\_{24} \leq 36$ by [S. R. Karingula and S. Lovett](https://arxiv.org/abs/2609.20979), 17 Sep 2026, formalized in Lean 4 by G. Dahia ([PALOMAR-2026-09-18-000003](https://palomar-registry.org/entry?id=PALOMAR-2026-09-18-000003&version=1)).
 - [24](https://teorth.github.io/optimizationproblems/constants/24a.html) **improved upper bound (unverified):** $C\_{24} < 6.9013$* by [E. Akbas and S. Sra](https://arxiv.org/abs/2609.27172v2), 29 Sep 2026.
 - [57c](https://teorth.github.io/optimizationproblems/constants/57c.html) **improved upper bound (unverified):** $C\_{57c} \leq 0.65628589^\*$ by [W. van Staden](https://www.preprints.org/manuscript/202610.1936/v1), 20 Oct 2026 (DOI 10.20944/preprints202610.1936.v1); computer-assisted proof (exact covering for the inradius, Arb ball arithmetic for the conformal radius), [code and certificates](https://github.com/WynandVStaden/bloch-landau-slit-discs). The page now also records the earlier upper bounds, including $0.6563937$ (Carroll and Ortega-Cerdà, 2009) and $0.656319277272^\*$ (Ortega-Cerdà and Pridhnani, 2010).
+- [3a](https://teorth.github.io/optimizationproblems/constants/3a.html) **improved lower bound (finite-depth certificate):** $C\_{3a} \geq 1.19230254$ at $N = 10^{13}$ in odd controlled-carry base $q = 27995$ via residue-bijective mod-$q$ difference pruning ($B = 17086$, $\lvert M\rvert = 3153$, complete residue system $\lvert\widetilde{D}\rvert = 27995$), by [mizopl](https://github.com/mizopl/ghr-c3a-odd-base-finite-bound/tree/464ceda9058798f0070ab92d35cd1c51865eb0ec), 19 Oct 2026.
 
 ## Maintainers
 
